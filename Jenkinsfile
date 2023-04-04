@@ -6,7 +6,7 @@ pipeline {
                 git branch: 'main', credentialsId: 'git-creds', url: 'https://github.com/mohanb5959/hiring'
             }
         }
-        stage('Maven Build') {
+        stage('Maven  Build') {
             steps {
                 sh "mvn clean package"
             }
