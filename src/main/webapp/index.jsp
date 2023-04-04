@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2 style="color: blue">Hello World Jenkins!</h2>
+<h2 style="color: pink">Welcome to Jenkins!</h2>
 </body>
 </html>
