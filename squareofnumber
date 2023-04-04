@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters {
-        string defaultValue: '10', descrition: 'Enter number', name: 'varOne'
+        string defaultValue: '10', description: 'Enter number', name: 'varOne'
     }
     stages {
         stage('Square of a number') {
