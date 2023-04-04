@@ -4,7 +4,7 @@ pipeline {
         string defaultValue: '10', description: 'Enter number', name: 'varOne'
     }
     stages {
-        stage('Square of a number') {
+        stage('Square of number') {
             steps {
                 script {
                     def varOne = params.varOne as int
